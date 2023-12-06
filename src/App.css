@@ -39,7 +39,7 @@
 
 /* Apply some basic styles to the body */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f8f8f8;
@@ -47,6 +47,7 @@ body {
 
 /* Style the main container */
 #result{
+
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
@@ -140,7 +141,7 @@ th, td {
 }
 
 th {
-  background-color: #f5f5f5;
+  background-color: lightgray;
 }
 
 tr:hover {
@@ -165,7 +166,7 @@ button:hover {
 /* Add these styles to your stylesheet */
 
 section {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Lato', sans-serif;
   margin: 20px;
 }
 

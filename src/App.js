@@ -8,6 +8,7 @@ function Home() {
   // const vuongQuynhImage = "https://i.ibb.co/HYngRvJ/IMG-9691.jpg"
   const vuongQuynhImage = "https://i.ibb.co/Cw4cfCH/IMG-9686-2.jpg"
   const namAnhImage = "https://i.ibb.co/wpsnt46/128739287-2450298285275144-2436440151988783825-n.jpg"
+  const khanhHuyenImgae = "https://i.ibb.co/MRmSZrz/376556043-1033702141290286-4608834581283278963-n.jpg"
   return (
     <section id="result">
     <h2>Parallel Smith-Waterman Algorithm Project</h2>
@@ -26,7 +27,9 @@ function Home() {
             />
           
           </div>
-          Tạ Khánh Ly
+          Tạ Khánh Ly <br/>
+          MSV 21002157
+
         </div>
         <div class="team-member">
           <div className="rounded-image-container">
@@ -38,8 +41,23 @@ function Home() {
             />
           
           </div>
-          Nguyễn Nam Anh</div>
-        <div class="team-member">Nguyễn Khánh Huyền</div>
+          Nguyễn Nam Anh <br/>
+          MSV 21002118          
+          </div>
+        <div class="team-member">
+          <div className="rounded-image-container">
+                
+                <img
+                  src={khanhHuyenImgae}
+                  alt="Khanh Huyen"
+                  className="rounded-image"
+                />
+            
+          </div>
+          Nguyễn Khánh Huyền <br/>
+          MSV 21000271
+          
+          </div>
         <div class="team-member">
             <div className="rounded-image-container">
               
@@ -50,7 +68,9 @@ function Home() {
               />
             
             </div>
-            Vương Thị Diễm Quỳnh
+            Vương Thị Diễm Quỳnh <br/>
+            MSV 21000415 
+            
           {/* <div className="rounded-image-container">
           
               <img
@@ -65,9 +85,9 @@ function Home() {
     <p><strong>Giáo viên hướng dẫn:</strong> TS.Trần Hà Nguyên</p>
 
     <h2>Project Resources</h2>
-        <p><strong>Report:</strong> <a href="link_to_your_report.pdf" target="_blank">Read the Report</a></p>
-        <p><strong>Source Code:</strong> <a href="link_to_your_github_repository" target="_blank">GitHub Repository</a></p>
-        <p><strong>Installation and Run Instructions:</strong></p>
+        <p><strong>Báo cáo:</strong> <a href="link_to_your_report.pdf" target="_blank">Read the Report</a></p>
+        <p><strong>Mã nguồn:</strong> <a href="link_to_your_github_repository" target="_blank">GitHub Repository</a></p>
+        <p><strong>Hướng Dẫn Cài Đặt và Chạy:</strong></p>
         <ol>
             <li>Clone the GitHub repository: <code>git clone https://github.com/your-username/your-repository.git</code></li>
             <li>Navigate to the project directory: <code>cd your-repository</code></li>
@@ -180,39 +200,39 @@ function Smith() {
       </div>
       <table>
         <tr>
-            <th>STT</th>
-            <th>Đặc trưng gen</th>
             <th>Nhãn</th>
+            <th>Đặc trưng gen</th>
+            {/* <th>Nhãn</th> */}
         </tr>
         <tr>
             <td >1</td>
-            <td>Mắt đen</td>
-            <td>4</td>
+            <td>Genes Điều Khiển Chu Kỳ Sinh Học</td>
+            {/* <td>4</td> */}
         </tr>
         <tr>
-            <td >1</td>
-            <td>Mắt đen</td>
-            <td>4</td>
+            <td >2</td>
+            <td>Genes Chống Ô Nhiễm</td>
+            {/* <td>4</td> */}
         </tr>
         <tr>
-            <td >1</td>
-            <td>Mắt đen</td>
-            <td>4</td>
+            <td >3</td>
+            <td>Genes Hệ Thống Miễn Dịch</td>
+            {/* <td>4</td> */}
         </tr>
         <tr>
-            <td >1</td>
-            <td>Mắt đen</td>
-            <td>4</td>
+            <td >4</td>
+            <td>Genes Chống Ung Thư</td>
+            {/* <td>4</td> */}
         </tr>
         <tr>
-            <td>2</td>
-            <td>Lông vàng</td>
-            <td>6</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Bạch tạng</td>
             <td>5</td>
+            <td>Genes Điều Khiển Phát Triển Embryo</td>
+            {/* <td>6</td> */}
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Genes Điều Khiển Chuyển Gen</td>
+            {/* <td>5</td> */}
         </tr>
     </table>
     
