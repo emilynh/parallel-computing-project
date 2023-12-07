@@ -4,17 +4,33 @@ import Nav from './Components/Nav';
 import './App.css';
 
 function Home() {
+  // const heroBackgroundImage = "url('https://i.ibb.co/HgWj8RT/5119299.jpg')";
+  const heroBackgroundImage ="url('https://i.ibb.co/jRxXxY6/cong-nghe-chinh-sua-dna-oscar-medical-01-1024x640.jpg')"
   const taKhanhLyImage = "https://i.ibb.co/sJVcqLH/393175621-369017442160467-3671015785044275022-n.jpg";
-  // const vuongQuynhImage = "https://i.ibb.co/HYngRvJ/IMG-9691.jpg"
-  const vuongQuynhImage = "https://i.ibb.co/Cw4cfCH/IMG-9686-2.jpg"
-  const namAnhImage = "https://i.ibb.co/wpsnt46/128739287-2450298285275144-2436440151988783825-n.jpg"
-  const khanhHuyenImgae = "https://i.ibb.co/MRmSZrz/376556043-1033702141290286-4608834581283278963-n.jpg"
+  const vuongQuynhImage = "https://i.ibb.co/Cw4cfCH/IMG-9686-2.jpg";
+  const namAnhImage = "https://i.ibb.co/wpsnt46/128739287-2450298285275144-2436440151988783825-n.jpg";
+  const khanhHuyenImgae = "https://i.ibb.co/MRmSZrz/376556043-1033702141290286-4608834581283278963-n.jpg";
   return (
+    
     <section id="result">
-    <h2>Parallel Smith-Waterman Algorithm Project</h2>
+    {/* <h2>Parallel Smith-Waterman Algorithm Project</h2>
     <p>
         Dự án song song hoá thuật toán Smith-Waterman và áp dụng kết quả vào giải quyết bài toán so sánh chuỗi gen xác định đặc trưng gen.
-    </p>
+    </p> */}
+    <div>
+      {/* Hero Section */}
+      <section className="hero" style={{ backgroundImage: heroBackgroundImage, backgroundSize: 'contain' }}>
+        <div className="hero-content">
+          <h1 id="hero-page-heading">Welcome to the Parallel Smith-Waterman Algorithm Project</h1>
+          <p id="hero-page-text">
+            Dự án song song hoá thuật toán Smith-Waterman và áp dụng kết quả vào giải quyết bài toán so sánh chuỗi gen xác định đặc trưng gen.
+          </p>
+          <Link to="/app" className="cta-button">Get Started</Link>
+        </div>
+      </section>
+
+      {/* ... (remaining sections) */}
+    </div>
     <p><strong>Thực hiện:</strong></p>
     <div class="team-section">
         <div class="team-member">
